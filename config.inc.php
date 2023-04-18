@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/El_Salvador');
 //
 // ACHIEVO CONFIGURATION FILE
 //
@@ -22,10 +23,10 @@
 // $config_db["default"]["collate"]  = "utf8_general_ci";
 // system database
 $config_db["default"]["driver"] = "mysqli";
-$config_db["default"]["host"] = "localhost";
-$config_db["default"]["db"] = "achievo";
-$config_db["default"]["user"] = "achievo";
-$config_db["default"]["password"] = "achievo";
+$config_db["default"]["host"] = "sql9.freemysqlhosting.net";
+$config_db["default"]["db"] = "sql9613445";
+$config_db["default"]["user"] = "sql9613445";
+$config_db["default"]["password"] = "UTJH9Rjm72";
 $config_db["default"]["charset"] = "utf8";
 $config_db["default"]["collate"] = "utf8_general_ci";
 
