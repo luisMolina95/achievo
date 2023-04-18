@@ -1,4 +1,0 @@
-[submodule "atk"]
-	path = atk
-	url = https://github.com/atkphpframework/atk.git
-	branch = release/6.4
