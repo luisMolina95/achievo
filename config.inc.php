@@ -22,13 +22,15 @@ date_default_timezone_set(getenv('PHP_TZ'));
 // $config_db["default"]["charset"]  = "utf8";
 // $config_db["default"]["collate"]  = "utf8_general_ci";
 // system database
-$config_db["default"]["driver"] = "mysqli";
+$config_db["default"]["driver"] = getenv('DB_DRIVER');
 $config_db["default"]["host"] = getenv('DB_HOST');
 $config_db["default"]["db"] = getenv('DB_NAME');
 $config_db["default"]["user"] = getenv('DB_USER');
 $config_db["default"]["password"] = getenv('DB_PASSWORD');
 $config_db["default"]["charset"] = "utf8";
 $config_db["default"]["collate"] = "utf8_general_ci";
+
+$config_enable_ssl_encryption=getenv('DB_SLL');
 
 // -------------------------------------------
 //           LAYOUT CONFIGURATION
